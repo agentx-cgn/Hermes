@@ -98,11 +98,11 @@ var DEVICES = function (){
 
       // all keys here
       window.onkeydown = function(e){
-        if      (e.keyCode === 68) {ANIMATOR.toggleDebug();}
-        else if (e.keyCode === 33) {ANIMATOR.switchCompo( 1);}
-        else if (e.keyCode === 34) {ANIMATOR.switchCompo(-1);}
-        else if (e.keyCode === 36) {ANIMATOR.setScale(1);}
-        else if (e.keyCode === 32) {ANIMATOR.toggle();}
+        if      (e.keyCode === 68) {ANIMATOR.toggleDebug();}   // d
+        else if (e.keyCode === 33) {ANIMATOR.switchCompo( 1);} // pageUp
+        else if (e.keyCode === 34) {ANIMATOR.switchCompo(-1);} // pageDown
+        else if (e.keyCode === 36) {ANIMATOR.setScale(1);}     // Home
+        else if (e.keyCode === 32) {ANIMATOR.toggle();}        // Space
         else {console.log("KEY :", e.keyCode);}
       };
 

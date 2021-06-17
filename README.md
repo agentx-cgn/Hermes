@@ -11,4 +11,4 @@ Unexpected bonus: after about 1 minute staring at the screen your keyboard will 
 
 ## Development
 
-This was build using [Mootools 1.3](https://mootools.net), yes, nobody talked about React or Angular these times.
+This was build using [Mootools 1.3](https://mootools.net), yes, nobody talked about React or Angular these times. Hermes tries it best to run smooth with 60fps and reduces resolution if needed. Pressing 'd' gives some information.
